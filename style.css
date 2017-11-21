@@ -1,0 +1,28 @@
+/*
+* UNIVERSAL STYLING
+*/
+html {
+  font-family: 'Garamond', serif;
+  font-size: 16px;
+}
+
+/*
+* HEADER STYLING
+*/
+header{
+  border-bottom: .05px solid black;
+}
+/***** Navigation ******/
+nav {
+  display: block;
+  justify-content: space-around
+}
+
+
+/*
+* FOOTER STYLING
+*/
+footer {
+  border-top: .05px solid black;
+  bottom: 0;
+}
