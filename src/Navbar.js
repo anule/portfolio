@@ -11,6 +11,7 @@ class Navbar extends Component {
         </div>
         <nav>
           <ul>
+          {/* Add NavLinks */}
             <li className="button">About Me</li>
             <li className="button">Projects</li>
             <li className="button">Blog</li>

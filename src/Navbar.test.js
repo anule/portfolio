@@ -14,6 +14,7 @@ it('renders three list items', () => {
   expect(nav.find('li').length).toEqual(3);
 });
 
+// TODO: find more effective way to test if a child element has a certain class name
 it('a list item has a "button" class name', () => {
   expect(nav.containsMatchingElement(<li className="button">About Me</li>)).toEqual(true);
 });
