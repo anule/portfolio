@@ -10,12 +10,12 @@ class Navbar extends Component {
           </h1>
         </div>
         <nav>
-          <ul>
-          {/* Add NavLinks */}
-            <li className="button">About Me</li>
-            <li className="button">Projects</li>
-            <li className="button">Blog</li>
-          </ul>
+          <div className="container">
+          {/* TODO: Add NavLinks */}
+            <span className="button">About Me</span>
+            <span className="button">Projects</span>
+            <span className="button">Blog</span>
+          </div>
         </nav>
       </header>
     );
