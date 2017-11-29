@@ -1,26 +1,28 @@
-import React, { Component } from "react";
+import React from 'react';
 
-class Navbar extends Component {
-  render() {
-    return (
-      <header>
-        <div id="logo">
-          <h1>
-            <a href="index.html">Anule Ndukwu</a>
-          </h1>
+const Navbar = () => {
+  return (
+    <header>
+      <div id="logo">
+        <h1>
+          <a href="#">Anule Ndukwu</a>
+        </h1>
+      </div>
+      <nav>
+        <div className="container">
+          <span className="button is-large">
+            About Me
+          </span>
+          <span className="button is-large">
+            Projects
+          </span>
+          <span className="button is-large">
+            Blog
+          </span>
         </div>
-        <nav>
-          <div className="container">
-          {/* TODO: Add NavLinks */}
-            <span className="button">About Me</span>
-            <span className="button">Projects</span>
-            <span className="button">Blog</span>
-          </div>
-        </nav>
-      </header>
-    );
-  }
-}
-
+      </nav>
+    </header>
+  );
+};
 
 export default Navbar;
