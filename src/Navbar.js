@@ -1,28 +1,24 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
-  return (
-    <header>
+const Navbar = () => (
+  <nav className="navbar" role="navigation" aria-label="main navigation">
+    <div className="navbar-brand">
       <div id="logo">
-        <h1>
-          <a href="#">Anule Ndukwu</a>
-        </h1>
+        <h1>Anule Ndukwu</h1>
       </div>
-      <nav>
-        <div className="container">
-          <span className="button is-large">
-            About Me
-          </span>
-          <span className="button is-large">
-            Projects
-          </span>
-          <span className="button is-large">
-            Blog
-          </span>
-        </div>
-      </nav>
-    </header>
-  );
-};
+
+      <span className="navbar-item">
+        <NavLink to="#about">About Me</NavLink>
+      </span>
+      <span className="navbar-item">
+        <NavLink to="#projects">Projects</NavLink>
+      </span>
+      <span className="navbar-item">
+        <NavLink to="#blog">Contact</NavLink>
+      </span>
+    </div>
+  </nav>
+);
 
 export default Navbar;
