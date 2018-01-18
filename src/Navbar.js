@@ -13,7 +13,7 @@ const Navbar = () => (
         <a href="#projects">Projects</a>
       </span>
       <span className="navbar-item">
-        <a href="#blog">Contact</a>
+        <a href="#contact">Contact</a>
       </span>
     </div>
   </nav>
