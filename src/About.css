@@ -1,0 +1,40 @@
+.title {
+  font-family: 'Oxygen', serif;
+  font-size: 2.5rem;
+  margin-top: 1.4rem;
+  padding: 0;
+}
+
+#self-portrait {
+  width: 100%;
+  margin-top: 2rem;
+  object-fit: contain;
+}
+
+.text {
+  font-family: 'Raleway', sans-serif;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+#about {
+  width: 90%;
+}
+
+#bio {
+  margin-bottom: 2.7rem;
+}
+
+#bio h1 {
+  padding: 0;
+}
+
+#skills {
+  margin-top: 1.5rem 0;
+  padding: 0;
+}
+
+#skills h1 {
+  padding: 0;
+}

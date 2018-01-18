@@ -1,0 +1,30 @@
+/*
+ * NAVBAR
+ */
+nav {
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  width: 90%;
+  justify-content: flex-start;
+  height: 6rem;
+  border-bottom: 1px solid black;
+}
+
+/*
+ * LOGO
+ */
+nav > h1 {
+  font-size: 400%;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  position: relative;
+}
+
+.navbar-menu {
+  display: inline-flex;
+  justify-content: flex-end;
+  padding: 0;
+  float: right;
+}
