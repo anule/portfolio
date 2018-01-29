@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://anule.github.io/about",
+  "homepage": "https://anule.github.io/",
   "private": true,
   "dependencies": {
     "enzyme": "^3.2.0",
