@@ -7,11 +7,10 @@ const About = () => (
     <div id="self-portrait">
       <img src={headshot} alt="profile pic" />
     </div>
-    <div className="info">
+    <div id="info">
       <div id="bio">
         <h1 className="title">bio</h1>
         <p className="text">Hi, I'm Anule!</p>
-        <br />
         <p className="text">
           I'm a former marketing professional, now a software engineer. In my
           free time, I'm an amateur documentary filmmaker/photographer.
@@ -30,9 +29,8 @@ const About = () => (
       <div id="skills">
         <h1 className="title">skills</h1>
         <p className="text">
-          JavaScript, Node.js, Neo4j Databases, CypherQL, PostgreSQL, SQL,
-          MySQL, PHP, Express.js, Webpack, React/Redux, Git, Heroku, Agile
-          Development
+          Javascript, Node.js, PostgreSQL, SQL, Express.js, Webpack,
+          React/Redux, Git, Heroku, PHP, Wordpress
         </p>
       </div>
     </div>

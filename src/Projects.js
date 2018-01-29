@@ -1,14 +1,16 @@
 import React from 'react';
 import './Projects.css';
 import kitchen from './global-kitchen.png';
+import h2store from './h2store.png';
 
 const Projects = () => (
   <section id="projects">
+    <h1 className="title">projects</h1>
     <div className="project-tiles">
       <div className="project" id="h2Store">
         <h1 className="project-title">h2Store</h1>
         <div className="project-img">
-          <img src="#" />
+          <img src={h2store} alt="h2store homepage" />
         </div>
         <div className="buttons">
           <a href="http://h2store.herokuapp.com">
@@ -21,6 +23,18 @@ const Projects = () => (
               Code
             </button>
           </a>
+        </div>
+        <div className="description">
+          <span className="text">November 2017</span>
+          <br />
+          <p className="text">
+            An e-commerce site which sells varieties of water.
+          </p>
+          <br />
+          <p className="text">
+            <b>Tech stack:</b> Express.js, React/Redux, Sass, PostgreSQL.
+            Developed using Agile Development
+          </p>
         </div>
       </div>
 
@@ -40,6 +54,19 @@ const Projects = () => (
               Code
             </button>
           </a>
+        </div>
+        <div className="description">
+          <span className="text">November 2017 - December 2017</span>
+          <br />
+          <p className="text">
+            A time-management simulation game designed to teach players about
+            unique foods from around the world
+          </p>
+          <br />
+          <p className="text">
+            <b>Tech stack:</b> Redux, Pixi.js, JavaScript. <br /> Developed
+            using Agile Development
+          </p>
         </div>
       </div>
     </div>
